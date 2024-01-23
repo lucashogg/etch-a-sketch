@@ -48,4 +48,6 @@ window.onload = setUpGrid(16);
 // User selects grid size
 selectGridBtn.addEventListener('click', setGridSize);
 // User resets grid back to default
-resetBtn.addEventListener('click', setUpGrid(16));
+resetBtn.addEventListener('click', () => {
+    setUpGrid(16);
+});
